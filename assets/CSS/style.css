@@ -1,0 +1,38 @@
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/ROBOTO/Roboto-Medium.ttf);
+}
+
+:root {
+    --color: #2732c2;
+    --c2: #EF152E;
+    --light-gray: #AEA9BA;
+    --gray: #797585;
+    --white: #fcfcfc;
+    --black: #1f1f1f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+    transition: 0.5s all linear;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 500 !important;
+}
+
+a {
+    font-size: 13px;
+}
